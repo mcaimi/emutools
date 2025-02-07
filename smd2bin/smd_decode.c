@@ -5,7 +5,7 @@
 //  Decodes Packed ROM Data from an SMD Formatted ROM Cartridge Dump
 //  Optionally Converts SMD Dumps to BIN (RAW) Dumps suitable to be run in Mednafen
 //
-//  17/02/2102 - Added support for SMD-to-BIN rom conversion
+//  17/02/2012 - Added support for SMD-to-BIN rom conversion
 //
 //
 
