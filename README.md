@@ -17,4 +17,14 @@ The tool is fairly old but it works!
 
     smd2bin -c <filename>.smd -o <outfile>.bin
 
+### IPSPatch
 
+Yet another IPS patcher. I know that there are tons upon tons of different (and better) patchers out there... but I was bored and I wrote my own.
+
+### Compile & install
+
+    gcc -o /usr/local/bin/ips ipspatch.c
+
+### Usage
+
+    ips -i <unpatched_rom_file.smc> -d <patched_rom_file.smc> -p <ips_patch_file.ips>
